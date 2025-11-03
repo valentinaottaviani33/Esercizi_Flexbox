@@ -1,0 +1,36 @@
+------------------------  FLEXBOX --------------------
+
+
+
+//// CONTAINER PADRE : 
+
+display : flex      -> attiva il layout FLEXBOX per il contenitore
+
+flex-direction      -> imposta la direzione degli elementi ( row, column ecc.. )
+
+justify-content     -> allinea gli elementi lungo l asse principale
+
+
+
+
+////  FIGLI : 
+
+flex-grow           -> imposta il container in base alla disponibilità di spazio, 
+                       flex-grow: 1 è come dire width: 50% 
+
+flex-shrink         -> determina quanto l elemento puo' ridursi rispetto agli altri
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+
+//// Esercizio FLEXBOX
+
+ - Dividere in due parte il contenitore principale,
+
+ - Nella parte sinistra si devono visualizzare 10 elementi in colonna e in ordine descrescente
+
+ - Nelle parte destra 9 elementi disposti in 3 file da 3
+

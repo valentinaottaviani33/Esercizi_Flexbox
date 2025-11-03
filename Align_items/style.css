@@ -1,0 +1,42 @@
+.container{
+
+    display: flex;
+    height: 200px;
+    background-color: #fff;
+
+    /*allineamento item*/
+    align-items: center;
+
+}
+
+
+.item {
+
+    background-color: coral;
+    color: white;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+
+.alto{
+
+    height: 40px;
+    
+
+}
+
+.medio{
+
+    height: 100px;
+
+}
+
+
+.basso{
+
+    height: 60px;
+}
+

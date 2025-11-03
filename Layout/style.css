@@ -1,0 +1,35 @@
+.page{
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+
+}
+
+header, footer {
+
+    background-color: coral;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+main {
+
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+ 
+    background-color: #fff;
+    padding: 10px;
+}

@@ -1,0 +1,21 @@
+.container{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #ddd;
+    padding: 20px;
+
+
+}
+
+
+.item{
+
+    background-color: coral;
+    color: white;
+    padding: 20px;
+    width: 60px;
+    text-align: center;
+
+}
+

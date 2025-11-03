@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Parte sinistra: 50% */
+.left {
+  width: 50%;
+  background-color: #e0f7fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Parte destra: 50% */
+.right {
+  width: 50%;
+  background-color: #ffe0b2;
+  display: flex;
+  flex-wrap: wrap;        /* per permettere l’andare a capo */
+  justify-content: center;
+  align-content: center;  /* centra anche verticalmente il blocco */
+  gap: 10px;
+  padding: 20px;
+}
+
+/* Stile blocchi */
+.left div,
+.right div {
+  background-color: #0288d1;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+/* Forza la griglia 3x3 */
+.right {
+  max-width: 360px; /* 3 blocchi da 100px + 2 gap da 10px + padding interno */
+  margin: auto;
+}
